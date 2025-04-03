@@ -5,7 +5,7 @@
   --primary-light: #3b82f6;
   --primary-dark: #1d4ed8;
   --background-color: #ffffff;
-  --text-color: #b3bcc7;
+  --text-color: #455466;
   --text-light: #2e3744;
   --card-bg: #f9fafb;
   --border-color: #e5e7eb;
@@ -47,7 +47,7 @@
   --primary-dark: #2563eb;
   --background-color: #1f2937;
   --text-color: #2563eb;
-  --text-light: #4f5f77;
+  --text-light: #b3cbf0;
   --card-bg: #374151;
   --border-color: #4b5563;
   --accent-color: #10b981;
@@ -424,6 +424,8 @@ section {
 .projects-preview {
   padding: var(--spacing-xxl) 0;
   background-color: var(--card-bg);
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 /* Update project cards for better layout */
