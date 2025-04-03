@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="theme-wrapper light-theme">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="theme-toggle-container">
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+    <div class="particles-container" id="particles-container"></div>
+    <div class="hero-content">
+        <h1 class="gradient-text">Hello, I'm Grace Wambui</h1>
+        <p>Creative Developer & Designer</p>
+        <div class="cta-buttons">
+            <a href="about.html" class="btn btn-primary">Learn More</a>
+            <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </div>
+</section>
+
+        <!-- About Preview Section -->
+        <section class="about-preview">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="images/profile/me.jpeg" alt="Grace Wambui">
+            </div>
+            <div class="about-text">
+                <p>I'm a passionate developer and designer with expertise in creating beautiful, functional websites and applications. I love combining creativity with technical skills to build engaging digital experiences.</p>
+                <a href="about.html" class="btn btn-outline">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Projects Preview Section -->
+        <section class="projects-preview">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="project-cards">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/projects/ecommerce .png" alt="Project 1">
+                        </div>
+                        <div class="project-info">
+                            <h3>E-Commerce Website</h3>
+                            <p>A fully responsive e-commerce platform with cart functionality.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="projects.html" class="btn btn-sm">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/projects/portfolio.png" alt="Project 2">
+                        </div>
+                        <div class="project-info">
+                            <h3>Portfolio Design</h3>
+                            <p>A creative portfolio website with animations and interactions.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="projects.html" class="btn btn-sm">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-all">
+                    <a href="projects.html" class="btn btn-outline">View All Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Preview Section -->
+        <section class="contact-preview">
+    <div class="container">
+        <div class="content-container">
+            <h2>Get In Touch</h2>
+            <p>Have a project in mind or want to chat? Feel free to reach out!</p>
+            <a href="contact.html" class="btn btn-primary">Contact Me</a>
+        </div>
+    </div>
+</section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <h3>Grace Wambui</h3>
+                        <p>Creative Developer & Designer</p>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <h4>Connect</h4>
+                        <div class="social-icons">
+                            <a href="https://github.com/WambuiGrace"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/grace-mwangi-4201a4240/"><i class="fab fa-linkedin"></i></a>
+                            <!-- <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Grace Wambui. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Chatbot -->
+        <div class="chatbot-container">
+            <div class="chatbot-toggle">
+                <i class="fas fa-comment"></i>
+            </div>
+            <div class="chatbot-box">
+                <div class="chatbot-header">
+                    <h3>Chat with Grace</h3>
+                    <button class="close-chat">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="chatbot-messages" id="chatbot-messages">
+                    <div class="message bot">
+                        <p>Hi there! I'm Grace's virtual assistant. How can I help you today?</p>
+                    </div>
+                    <div class="message bot">
+                        <p>You can ask me about:</p>
+                        <ul class="chat-suggestions">
+                            <li><button class="suggestion-btn" data-query="skills">My Skills</button></li>
+                            <li><button class="suggestion-btn" data-query="projects">My Projects</button></li>
+                            <li><button class="suggestion-btn" data-query="contact">Contact Info</button></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="chatbot-input">
+                    <input type="text" id="chat-input" placeholder="Type your message...">
+                    <button id="send-chat">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Badges Notification -->
+        <div class="badges-notification" id="badges-notification">
+            <div class="badge-icon">
+                <i class="fas fa-award"></i>
+                <span class="badge-dot"></span>
+            </div>
+        </div>
+
+        <!-- Badges Modal -->
+        <div class="modal" id="badges-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Your Achievements</h2>
+                    <button class="close-modal">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="badges-container" id="badges-container">
+                        <!-- Badges will be dynamically added here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/theme-toggle.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/chatbot.js"></script>
+    <script src="js/gamification.js"></script>
+</body>
+</html>
+

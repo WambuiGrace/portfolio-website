@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | About</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="theme-wrapper light-theme">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="theme-toggle-container">
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+        <!-- About Header -->
+        <section class="about-header">
+            <div class="container">
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <img src="images/profile/me.jpeg" alt="Grace Wambui">
+                    </div>
+                    <div class="profile-info">
+                        <h1>Grace Wambui</h1>
+                        <p>Creative Developer & Designer</p>
+                        <div class="social-links">
+                            <a href="https://github.com/WambuiGrace"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/grace-mwangi-4201a4240/"><i class="fab fa-linkedin"></i></a>
+                            <!-- <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bio Section -->
+        <section class="bio-section">
+    <div class="container">
+        <div class="tabs" style="justify-content: center; ">
+            <button class="tab-btn active" data-tab="bio">Bio</button>
+        </div>
+        
+        <div class="tab-content">
+            <div class="tab-pane active" id="bio">
+                <div class="bio-content content-container">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm Grace, a passionate web developer and designer with over 5 years of experience creating beautiful, functional websites and applications. I specialize in front-end development, with expertise in HTML, CSS, JavaScript, and various modern frameworks.</p>
+                    <p>My journey in web development began during my university years, where I discovered my passion for combining creativity with technical skills. Since then, I've worked with various clients and companies to bring their digital visions to life.</p>
+                    <p>When I'm not coding, you can find me exploring new design trends, photographing nature, or enjoying a good book. I believe in continuous learning and am always excited to take on new challenges.</p>
+                    
+                    <h3>My Skills</h3>
+                    <div class="skills-container">
+                        <div class="skill">
+                            <div class="skill-name">HTML/CSS</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">UI/UX Design</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">Responsive Design</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 92%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">Web Animation</div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+        <!-- Timeline Section -->
+        <section class="timeline-section">
+            <div class="container">
+                <h2">My Journey</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Bachelor's Degree in Business and Information Technology</h3>
+                            <div class="timeline-date">2020 - 2025</div>
+                            <p>Pursued a degree in business and information technology.</p>
+                            <div class="timeline-tags">
+                                <span>Computer Science</span>
+                                <span>Web Development</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Junior Web Developer</h3>
+                            <div class="timeline-date">2020 - 2021</div>
+                            <p>Started my career at TechSolutions Inc. Worked on various client websites and internal projects.</p>
+                            <div class="timeline-tags">
+                                <span>HTML/CSS</span>
+                                <span>JavaScript</span>
+                                <span>Responsive Design</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Front-End Developer</h3>
+                            <div class="timeline-date">2021 - 2023</div>
+                            <p>Promoted to Front-End Developer at TechSolutions. Led the UI team for major client projects.</p>
+                            <div class="timeline-tags">
+                                <span>JavaScript</span>
+                                <span>UI/UX</span>
+                                <span>Team Leadership</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Freelance Web Developer & Designer</h3>
+                            <div class="timeline-date">2023 - Present</div>
+                            <p>Started my freelance career, working with clients globally to create beautiful, functional websites.</p>
+                            <div class="timeline-tags">
+                                <span>Web Development</span>
+                                <span>UI/UX Design</span>
+                                <span>Client Management</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Personality Quiz Section -->
+        <section class="quiz-section">
+            <div class="container">
+                <h2>Discover Your Work Style</h2>
+                <p>Take this quick quiz to find out what kind of work environment suits you best!</p>
+                
+                <div class="quiz-container" id="quiz-container">
+                    <div class="quiz-progress">
+                        <div class="progress-bar" id="quiz-progress-bar"></div>
+                    </div>
+                    
+                    <div class="quiz-questions" id="quiz-questions">
+                        <!-- Questions will be dynamically added here -->
+                    </div>
+                    
+                    <div class="quiz-result" id="quiz-result" style="display: none;">
+                        <!-- Results will be dynamically added here -->
+                    </div>
+                    
+                    <div class="quiz-controls">
+                        <button id="start-quiz" class="btn btn-primary">Start Quiz</button>
+                        <button id="next-question" class="btn btn-primary" style="display: none;">Next Question</button>
+                        <button id="retake-quiz" class="btn btn-outline" style="display: none;">Retake Quiz</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <h3>Grace Wambui</h3>
+                        <p>Creative Developer & Designer</p>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <h4>Connect</h4>
+                        <div class="social-icons">
+                            <a href="https://github.com/WambuiGrace"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/grace-mwangi-4201a4240/"><i class="fab fa-linkedin"></i></a>
+                            <!-- <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Grace Wambui. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Badges Notification -->
+        <div class="badges-notification" id="badges-notification">
+            <div class="badge-icon">
+                <i class="fas fa-award"></i>
+                <span class="badge-dot"></span>
+            </div>
+        </div>
+
+        <!-- Badges Modal -->
+        <div class="modal" id="badges-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Your Achievements</h2>
+                    <button class="close-modal">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="badges-container" id="badges-container">
+                        <!-- Badges will be dynamically added here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/theme-toggle.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/gamification.js"></script>
+</body>
+</html>
+

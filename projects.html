@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Projects</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="theme-wrapper light-theme">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="theme-toggle-container">
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+        <!-- Projects Header -->
+        <section class="projects-header">
+            <div class="container">
+                <div class="content-container">
+                    <h1>My Projects</h1>
+                    <p>A collection of my recent work and personal projects.</p>
+                </div>
+                
+                <!-- <div class="filter-container">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="design">Design</button>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- Projects Grid -->
+        <section class="projects-grid">
+            <div class="container">
+                <div class="projects-container" id="projects-container">
+                    <!-- Project 1 -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="images/projects/ecommerce .png" alt="E-Commerce Website">
+                            <div class="project-overlay">
+                                <button class="view-project-btn" data-project="project1">View Details</button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>E-Commerce Website</h3>
+                            <p>A fully responsive e-commerce platform with cart functionality.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="project-card" data-category="design">
+                        <div class="project-image">
+                            <img src="images/projects/portfolio.png" alt="Portfolio Design">
+                            <div class="project-overlay">
+                                <button class="view-project-btn" data-project="project2">View Details</button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Portfolio Design</h3>
+                            <p>A creative portfolio website with animations and interactions.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="images/projects/weather.png" alt="Weather App">
+                            <div class="project-overlay">
+                                <button class="view-project-btn" data-project="project3">View Details</button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Weather App</h3>
+                            <p>A weather application that displays current and forecasted weather.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 4 -->
+                    <div class="project-card" data-category="mobile">
+                        <div class="project-image">
+                            <img src="images/projects/fitness.png" alt="Fitness Tracker">
+                            <div class="project-overlay">
+                                <button class="view-project-btn" data-project="project4">View Details</button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Fitness Tracker</h3>
+                            <p>A mobile-first fitness tracking application with progress visualization.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Mobile</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 5 -->
+                    <div class="project-card" data-category="design">
+                        <div class="project-image">
+                            <img src="images/projects/brand.jpeg" alt="Brand Identity">
+                            <div class="project-overlay">
+                                <button class="view-project-btn" data-project="project5">View Details</button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Brand Identity</h3>
+                            <p>A complete brand identity design for a local coffee shop.</p>
+                            <div class="project-tags">
+                                <span>Design</span>
+                                <span>Branding</span>
+                                <span>Logo</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 6 -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="images/projects/task.jpg" alt="Task Manager">
+                            <div class="project-overlay">
+                                <button class="view-project-btn" data-project="project6">View Details</button>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Task Manager</h3>
+                            <p>A task management application with drag-and-drop functionality.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Modals -->
+        <div class="modal" id="project-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="modal-project-title">Project Title</h2>
+                    <button class="close-modal">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-project-image">
+                        <img id="modal-project-image" src="/placeholder.svg?height=400&width=700" alt="Project Image">
+                    </div>
+                    <div class="modal-project-details">
+                        <div class="modal-project-description">
+                            <h3>Description</h3>
+                            <p id="modal-project-description">Project description will appear here.</p>
+                        </div>
+                        <div class="modal-project-technologies">
+                            <h3>Technologies Used</h3>
+                            <div class="modal-project-tags" id="modal-project-technologies">
+                                <!-- Technologies will be added dynamically -->
+                            </div>
+                        </div>
+                        <div class="modal-project-features">
+                            <h3>Key Features</h3>
+                            <ul id="modal-project-features">
+                                <!-- Features will be added dynamically -->
+                            </ul>
+                        </div>
+                        <div class="modal-project-links">
+                            <a href="#" id="modal-project-code" class="btn btn-outline"><i class="fab fa-github"></i> View Code</a>
+                            <a href="#" id="modal-project-demo" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <h3>Grace Wambui</h3>
+                        <p>Creative Developer & Designer</p>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <h4>Connect</h4>
+                        <div class="social-icons">
+                            <a href="https://github.com/WambuiGrace"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/grace-mwangi-4201a4240/"><i class="fab fa-linkedin"></i></a>
+                            <!-- <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Grace Wambui. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Badges Notification -->
+        <div class="badges-notification" id="badges-notification">
+            <div class="badge-icon">
+                <i class="fas fa-award"></i>
+                <span class="badge-dot"></span>
+            </div>
+        </div>
+
+        <!-- Badges Modal -->
+        <div class="modal" id="badges-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Your Achievements</h2>
+                    <button class="close-modal">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="badges-container" id="badges-container">
+                        <!-- Badges will be dynamically added here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/theme-toggle.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/gamification.js"></script>
+</body>
+</html>
+
