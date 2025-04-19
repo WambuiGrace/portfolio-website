@@ -24,54 +24,9 @@ A modern, responsive portfolio website built with HTML, CSS, and JavaScript. Thi
 
 ## Technologies Used
 
-- **HTML5**: Semantic markup for structure
-- **CSS3**: 
-  - Custom properties (variables) for theming
-  - Flexbox and Grid for layouts
-  - Animations and transitions
-  - Media queries for responsiveness
-- **JavaScript**: 
-  - DOM manipulation
-  - Event handling
-  - Local storage for persistence
-  - Dynamic content generation
-
-## File Structure
-portfolio-website/  
-├── about.html 
-├── contact.html 
-├── index.html 
-├── package.json 
-├── portfolio.png 
-├── projects.html 
-├── README.md 
-├── css/ 
-│ ├── animations.css 
-│ └── styles.css 
-├── images/ 
-│ ├── profile/ 
-│ │ ├── email-qr-code.png 
-│ │ ├── linkedin-qrcode.png 
-│ │ ├── me.jpeg 
-│ │ └── phone-qr-code.png 
-│ └── projects/ 
-│ ├── brand.jpeg 
-│ ├── ecommerce.png 
-│ ├── fitness.png 
-│ ├── portfolio.png 
-│ ├── task.jpg 
-│ └── weather.png 
-├── js/ 
-│ ├── chat-form.js 
-│ ├── chatbot.js 
-│ ├── gamification.js 
-│ ├── main.js 
-│ ├── particles.js 
-│ ├── projects.js 
-│ ├── qr-code.js 
-│ ├── quiz.js 
-│ └── theme-toggle.js
-
+1. HTML
+2. CSS
+3. JS
 
 ## How to Run
 
